@@ -14,6 +14,14 @@
 ## Livrable 2
 à rendre le 05/06
 
+- Le code de chargement du fichier.
+- Le code du débruitage sur un sous-ensemble d'images bruitées. + explications.
+- étude de cas
 
 ## Livrable 3
 à rendre le 11/06
+
+- L'architecture schématique complète du réseau utilisé pour le captioning explicitant le type de CNN utilisé pour les prétraitements.
+- petit descriptif sur le pré-traitements de images et du texte.
+- code explicitant l'architecture du CNN et du RNN utilisés dans le captioning.
+- évolution sous forme de courbes des performances du réseau pendant l'entrainement. Affichage de quelques exemples pour les tests.
