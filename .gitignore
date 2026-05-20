@@ -1,3 +1,6 @@
 # Virtual environment
 .venv/
-Dataset/
+datasets/
+dataset/
+.vscode/
+models/
