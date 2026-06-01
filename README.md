@@ -9,7 +9,7 @@ TouNum n'a pas dans son personnel de spécialiste du Machine Learning. L'entrepr
 ## Comment installer le projet ?
 
 ```bash
-git clone https://github.com/Tanguy-Trotin/HumanForYou
+git clone https://github.com/Charlyhno-eng/projet-leyenda
 python3 -m venv .venv && source .venv/bin/activate
 ```
 
