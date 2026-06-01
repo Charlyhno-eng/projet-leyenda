@@ -1,19 +1,21 @@
 # projet-leyenda
 
-## Livrable 1
-à rendre le 29/05
+## Contexte du projet
 
-- Classification binaire -> WS2/WS3
-- Schéma architecture du réseau de neurones (focntionnement)
-    - Paramètres du réseau, fonction de perte, algorithme d'optimisation d'entrainement
-- Graphique d'évolution des erreurs d'entrainement + accuracy + erreurs de test
-- Analyse des résultats (compromis biais/variance)
-    - Description des méthodes utilisables pour améliorer biais/variance
+L'entreprise TouNum travaille sur la numérisation de documents (textes, images...). Leurs services sont souvent requis par des entreprises numérisant leur base de documents papier. Ils souhaitent étendre leur gamme de services pour inclure des outils de Machine Learning. En effet, certains de leurs clients ont une grande quantité de données à numériser, et un service de catégorisation automatique serait plus que valorisable.
 
+TouNum n'a pas dans son personnel de spécialiste du Machine Learning. L'entreprise fait appel à vous, les spécialistes en Data Science de CESI. On vous propose un premier contrat pour travailler sur une solution visant à analyser des photographies pour en déterminer une légende descriptive de manière automatique (du captioning).
 
-## Livrable 2
-à rendre le 05/06
+## Comment installer le projet ?
 
+```bash
+git clone https://github.com/Tanguy-Trotin/HumanForYou
+python3 -m venv .venv && source .venv/bin/activate
+```
 
-## Livrable 3
-à rendre le 11/06
+## Membre du groupe
+
+- Menanteau Melvin
+- Mercier Charly
+- Mitori Guichel
+- Trotin Tanguy
