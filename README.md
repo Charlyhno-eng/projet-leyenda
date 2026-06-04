@@ -6,6 +6,13 @@ L'entreprise TouNum travaille sur la numérisation de documents (textes, images.
 
 TouNum n'a pas dans son personnel de spécialiste du Machine Learning. L'entreprise fait appel à vous, les spécialistes en Data Science de CESI. On vous propose un premier contrat pour travailler sur une solution visant à analyser des photographies pour en déterminer une légende descriptive de manière automatique (du captioning).
 
+
+## Architecture livrable 1
+
+![Architecture CNN](livrables/livrable1/assets/architecture_cnn.png)
+
+
+
 ## Comment installer le projet ?
 
 ```bash
