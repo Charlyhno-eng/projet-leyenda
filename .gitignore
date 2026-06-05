@@ -3,3 +3,4 @@
 datasets/
 dataset/
 .vscode/
+models/livrable1/transfert_learning_model.keras
