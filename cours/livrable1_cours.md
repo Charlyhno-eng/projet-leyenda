@@ -1,23 +1,34 @@
 ### Batch size
+
 Le batch size correspond au nombre d’exemples traités par le modèle avant de mettre à jour ses poids. Un petit batch rend l’apprentissage plus précis mais plus lent, tandis qu’un grand batch accélère l’entraînement mais peut rendre l’apprentissage moins stable.
 
 ### Epochs
+
 Une epoch correspond à un passage complet de toutes les données dans le modèle. Plus il y a d’epochs, plus le modèle voit les données plusieurs fois et apprend, mais trop d’epochs peut entraîner un surapprentissage.
 
 ### Seed
+
 Le seed est une valeur fixe utilisée pour rendre les résultats reproductibles. Avec le même seed, on obtient les mêmes séparations de données et les mêmes résultats d’entraînement.
 
 ### Autotune
+
 Autotune permet à TensorFlow d’optimiser automatiquement certains paramètres comme le préchargement des données. Cela améliore les performances sans avoir à configurer manuellement les valeurs.
 
 ### Softmax
+
 Softmax est une fonction qui transforme un ensemble de scores en probabilités. Chaque sortie devient une probabilité comprise entre 0 et 1, et la somme de toutes les probabilités vaut 1.
 
 ### EarlyStopping
+
 EarlyStopping arrête automatiquement l’entraînement lorsque les performances du modèle ne s’améliorent plus. Cela permet d’éviter le surapprentissage et de gagner du temps.
 
 ### ReduceLROnPlateau
+
 ReduceLROnPlateau réduit automatiquement le learning rate lorsque la performance du modèle stagne. Cela permet d’affiner l’apprentissage pour obtenir de meilleurs résultats.
+
+### Stride
+
+Il s'agit du nombre de pixels dont un filtre se déplace à chaque étape lors d'une convolution. Un stride de 1 examine l'image plus finement, tandis qu'un stride plus grand (par exemple 2) saute des positions. On l'utilise pour réduire la taille des données, accélérer les calculs et diminuer l'utilisation de la mémoire, au prix d'une possible perte de détails.
 
 ---
 ### L1 vs Dropout
