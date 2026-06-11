@@ -11,8 +11,13 @@ TouNum n'a pas dans son personnel de spécialiste du Machine Learning. L'entrepr
 
 ![Architecture CNN](livrables/livrable1/assets/architecture_cnn.png)
 
+## Architecture livrable 3
 
+![Architecture CNN-RNN](livrables/livrable3/assets/archi_cnn_rnn.png)
 
+## Architecture final
+
+![Architecture final](livrables/livrable3/assets/archi_finale_complete.webp)
 ## Comment installer le projet ?
 
 ```bash
